@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_date_calculate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.myapplication.date_calculate">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期计算"
+        android:gravity="center"
+        android:textSize="25dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/date_cal_1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始日期"
+            android:textSize="30dp"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/startdate"
+            android:textSize="30dp"
+            android:paddingLeft="40dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/date_cal_2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束日期"
+            android:textSize="30dp"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/enddate"
+            android:textSize="30dp"
+            android:paddingLeft="40dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结果"
+            android:textSize="30dp"
+            android:paddingLeft="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/result"
+            android:textSize="30dp"
+            android:paddingLeft="200dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天"
+            android:textSize="30dp"
+            android:paddingLeft="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

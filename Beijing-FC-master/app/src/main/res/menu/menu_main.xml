@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jizhang3.AccountBookActivity">
+    <item
+        android:id="@+id/action_chart"
+        android:orderInCategory="100"
+        android:title="图表"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_total"
+        android:orderInCategory="100"
+        android:title="总消费"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_monthly"
+        android:orderInCategory="100"
+        android:title="月消费"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_goal"
+        android:orderInCategory="100"
+        android:title="消费预算"
+        app:showAsAction="never" />
+</menu>

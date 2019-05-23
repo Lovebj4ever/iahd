@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="10dp" android:background="@mipmap/mainb"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+    <TextView android:id="@+id/text2" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="chart" android:textSize="30dp"
+        android:layout_marginTop="40dp" android:textColor="@color/cardview_dark_background"
+        android:gravity="center" />
+
+    <lecho.lib.hellocharts.view.LineChartView android:id="@+id/chart"
+        android:layout_width="match_parent"
+
+        android:layout_height="338dp" android:padding="25dp" />
+
+</LinearLayout>
